@@ -3,15 +3,27 @@
 </br>
 
 ## Gaming
-### Get every games to works with Proton:  
-Activate "Enable Steam Play for supported titles" in Compatibility settings  
-  
+### Get every games to works with Proton in Steam:  
+When you want to install a Windows game it don't let you install it? It's normal, you have to change a setting.  
+To do so, activate *Enable Steam Play for supported titles* in the Compatibility settings.  
+
+![image](https://github.com/user-attachments/assets/afe78bac-b5d8-4b85-b320-f85c9f4b087a)
+
 Make apps background transparent: Activate "Blur my shell" in the Extension Manager (gnome extension), and then select the apps you want in the "Applications" panel of the Blur my shell settings  
-Better system monitoring: install Resources  
-Customize RGB: install OpenRGB  
+
+
+
+
+
+
+
 
 ## Solve techincal issues:  
 ### Have the audio share on Discord:  
+In Discord you can share your screen but it will not share the audio.  
+
+![image](https://github.com/user-attachments/assets/9c17e5e5-efdb-49df-99f4-ae0680b37a58)
+
 This one is a bit tricky but you have to create a virtual microphone by tapping theses commands in the terminal:  
 ```
 pactl load-module module-null-sink media.class=Audio/Sink sink_name=Virtual-Mic channel_map=front-left,front-right
@@ -71,3 +83,17 @@ Now you can click on the brightness icon on the top bar to ajust the brightness.
 You can add an Input/Output selector by activate "Sound Input & Output Device Chooser" in the Extension Manager (gnome extension).  
 
 ![image](https://github.com/user-attachments/assets/006488ae-412c-4a42-acad-a04e63df6059)
+
+
+### - Customize RGB:  
+To customize your RGB devices you can install "OpenRGB".  
+It's compatible with most products of popular brands like Corsair, Razer, NZXT or Logitech.  
+
+![image](https://github.com/user-attachments/assets/62375ab1-5684-4885-9564-25ec0c81d0bc)
+
+### - Better system monitoring:  
+The basic system monitoring is not user friendly as the Windows one and don't display all the informations.  
+A better system monitoring is "Resources", you can install it in the store.  
+
+![image](https://github.com/user-attachments/assets/e7c2d7a5-b7e7-4a2d-872d-cf804b3f5fd7)
+
