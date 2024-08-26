@@ -1,18 +1,33 @@
-# A-guide-to-swith-to-Pop-_OS-fro-working-and-gaming-purposes
+# A-guide-to-swith-to-Pop-_OS-for-working-and-gaming-purposes
+
+</br>
+
+I've used Pop!_OS for one month now and I had some minor problems.
+I found the solutions to my problems and I want to share them, it's a guide to help you to setup Pop!_OS for working and gaming purposes.  
 
 </br>
 
 ## Gaming
-### Get every games to works with Proton in Steam:  
+### - Get every games to works with Proton in Steam:  
 When you want to install a Windows game it don't let you install it? It's normal, you have to change a setting.  
 To do so, activate *Enable Steam Play for supported titles* in the Compatibility settings.  
 
 ![image](https://github.com/user-attachments/assets/afe78bac-b5d8-4b85-b320-f85c9f4b087a)
 
+### - Better Steam rich presence on Discord:  
+On Linux, Discord will normally display Steam games with weird names and without the game icon.  
+To solve this problem you can install this program: https://github.com/JustTemmie/steam-presence  
 
+BEFORE:  
+![Screenshot from 2024-08-26 18-01-38](https://github.com/user-attachments/assets/6aa4b4e1-63c1-4730-8d0f-76d889205f90)  
+
+AFTER:  
+![Screenshot from 2024-08-26 18-01-02](https://github.com/user-attachments/assets/8d54e886-3238-4851-9950-43b0f4598100)  
+
+</br>
 
 ## Solve techincal issues:  
-### Have the audio share on Discord:  
+### - Have the audio share on Discord:  
 In Discord you can share your screen but it will not share the audio.  
 
 ![image](https://github.com/user-attachments/assets/9c17e5e5-efdb-49df-99f4-ae0680b37a58)
@@ -40,23 +55,13 @@ Select the audio sources you want to add to the virtual microphone by setting th
 Finally, change the microphone source in Discord to the virtual microphone and disable the Noise Suppression so your friends can hear all the audio and not just people speaking.  
 You can also set the Input Sensitivity to the minimum to hear the whole audio without cuts.  
 
-
+</br>
 
 ## Upgrades
 ### - Better store:  
 The Pop!_shop is great but it's sooo slow.  
 Instead you can install the COSMIC App Store, it's the same thing but faster (coded in Rust), simpler to use and prettier.  
 This store is also made by System76 but it's a beta version of what is going to come in Pop!_OS.
-
-### - Better Steam rich presence on Discord:  
-On Linux, Discord will normally display Steam games with weird names and without the game icon.  
-To solve this problem you can install this program: https://github.com/JustTemmie/steam-presence  
-
-BEFORE:  
-![Screenshot from 2024-08-26 18-01-38](https://github.com/user-attachments/assets/6aa4b4e1-63c1-4730-8d0f-76d889205f90)  
-
-AFTER:  
-![Screenshot from 2024-08-26 18-01-02](https://github.com/user-attachments/assets/8d54e886-3238-4851-9950-43b0f4598100)  
 
 ### - Recording last 30s (or more):  
 You can record the last 30s by using OBS with the Replay Buffer acivated.  
@@ -93,7 +98,7 @@ A better system monitoring is "Resources", you can install it in the store.
 ![image](https://github.com/user-attachments/assets/e7c2d7a5-b7e7-4a2d-872d-cf804b3f5fd7)
 
 ### - Make apps background transparent:  
-This one is a bit gadget but it's so cool.  
+This one is a bit gadget but it looks so cool.  
 To make the backgrounds of your apps transparent, activate "Blur my shell" in the Extension Manager (gnome extension).  
 Then select the apps you want in the Applications panel of the Blur my shell settings.  
 
