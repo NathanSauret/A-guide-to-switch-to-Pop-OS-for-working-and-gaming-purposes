@@ -1,4 +1,4 @@
-# A-guide-to-swith-to-Pop-_OS-for-working-and-gaming-purposes
+# A guide to switch to Pop!_OS for working and gaming purposes
 
 </br>
 
