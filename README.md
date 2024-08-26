@@ -9,13 +9,6 @@ To do so, activate *Enable Steam Play for supported titles* in the Compatibility
 
 ![image](https://github.com/user-attachments/assets/afe78bac-b5d8-4b85-b320-f85c9f4b087a)
 
-Make apps background transparent: Activate "Blur my shell" in the Extension Manager (gnome extension), and then select the apps you want in the "Applications" panel of the Blur my shell settings  
-
-
-
-
-
-
 
 
 ## Solve techincal issues:  
@@ -44,8 +37,10 @@ Select the audio sources you want to add to the virtual microphone by setting th
 
 ![image](https://github.com/user-attachments/assets/2e606b0c-695e-4703-a6f0-18a0c98edfb2)
 
-Finally, change the microphone source in Discord to the virtual microphone and disable the Noise Suppression so you can hear all the audio and not just people speaking.  
-You can also set the Input Sensitivity to the minimum to hear the whole audio without cut.  
+Finally, change the microphone source in Discord to the virtual microphone and disable the Noise Suppression so your friends can hear all the audio and not just people speaking.  
+You can also set the Input Sensitivity to the minimum to hear the whole audio without cuts.  
+
+
 
 ## Upgrades
 ### - Better store:  
@@ -97,3 +92,12 @@ A better system monitoring is "Resources", you can install it in the store.
 
 ![image](https://github.com/user-attachments/assets/e7c2d7a5-b7e7-4a2d-872d-cf804b3f5fd7)
 
+### - Make apps background transparent:  
+This one is a bit gadget but it's so cool.  
+To make the backgrounds of your apps transparent, activate "Blur my shell" in the Extension Manager (gnome extension).  
+Then select the apps you want in the Applications panel of the Blur my shell settings.  
+
+![image](https://github.com/user-attachments/assets/3b10ac0d-f790-4558-b194-89f4c0a10991)  
+
+Result:  
+![image](https://github.com/user-attachments/assets/110bda4c-818d-4662-b8b3-86ed4421bd62)
