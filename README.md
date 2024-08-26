@@ -18,15 +18,15 @@ To do so, activate *Enable Steam Play for supported titles* in the Compatibility
 On Linux, Discord will normally display Steam games with weird names and without the game icon.  
 To solve this problem you can install this program: https://github.com/JustTemmie/steam-presence  
 
-BEFORE:  
+**BEFORE:**  
 ![Screenshot from 2024-08-26 18-01-38](https://github.com/user-attachments/assets/6aa4b4e1-63c1-4730-8d0f-76d889205f90)  
 
-AFTER:  
+**AFTER:**  
 ![Screenshot from 2024-08-26 18-01-02](https://github.com/user-attachments/assets/8d54e886-3238-4851-9950-43b0f4598100)  
 
 </br>
 
-## Solve techincal issues:  
+## Solve technical issues:  
 ### - Have the audio share on Discord:  
 In Discord you can share your screen but it will not share the audio.  
 
@@ -44,7 +44,7 @@ Then set the monitoring device in OBS to the virtual microphone you've created i
 ![image](https://github.com/user-attachments/assets/cd5a08e7-ac94-41f2-9ccd-a4451892943e)
 
 Now configure the audio channels in the Audio Mixer to monitor them (for exemple mic and desktop Audio).  
-To do so, click on the gear on the right of one of your audio channel in the Audio Mixer, then on *Advanced Audio Proprieties*.  
+To do so, click on the gear on the right of one of your audio channel in the Audio Mixer, then on *Advanced Audio Properties*.  
 
 ![image](https://github.com/user-attachments/assets/b655717c-2b09-4834-8960-efca71dd8460)
 
@@ -64,7 +64,7 @@ Instead you can install the COSMIC App Store, it's the same thing but faster (co
 This store is also made by System76 but it's a beta version of what is going to come in Pop!_OS.
 
 ### - Recording last 30s (or more):  
-You can record the last 30s by using OBS with the Replay Buffer acivated.  
+You can record the last 30s by using OBS with the Replay Buffer activated.  
 You can configure it in the Ouput settings, under Replay Buffer.  
 To activate the Replay Buffer at the startup you can add ```obs --startreplaybuffer``` in the Startup Applications Preferences.  
 If you did right an OBS icon with a red dot should appear on the top bar.  
@@ -98,16 +98,16 @@ A better system monitoring is "Resources", you can install it in the store.
 ![image](https://github.com/user-attachments/assets/e7c2d7a5-b7e7-4a2d-872d-cf804b3f5fd7)
 
 ### - Make apps background transparent:  
-This one is a bit gadget but it looks so cool.  
+This one is a bit gimmick but it looks so cool.  
 To make the backgrounds of your apps transparent, activate "Blur my shell" in the Extension Manager (gnome extension).  
 Then select the apps you want in the Applications panel of the Blur my shell settings.  
 
 ![image](https://github.com/user-attachments/assets/3b10ac0d-f790-4558-b194-89f4c0a10991)  
 
-Result:  
+**Result:**  
 ![image](https://github.com/user-attachments/assets/110bda4c-818d-4662-b8b3-86ed4421bd62)
 
 </br>
 
 I hope you found this guide helpful.  
-If something don't works like espected, let me know.  
+If something doesn't work like expected, let me know.  
