@@ -2,7 +2,7 @@
 
 </br>
 
-I've used Pop!_OS for one month now and I had some minor problems.
+I've used Pop!_OS for one month now and I had some minor problems.  
 I found the solutions to my problems and I want to share them, it's a guide to help you to setup Pop!_OS for working and gaming purposes.  
 
 </br>
