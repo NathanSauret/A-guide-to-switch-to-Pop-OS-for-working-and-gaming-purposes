@@ -106,3 +106,8 @@ Then select the apps you want in the Applications panel of the Blur my shell set
 
 Result:  
 ![image](https://github.com/user-attachments/assets/110bda4c-818d-4662-b8b3-86ed4421bd62)
+
+</br>
+
+I hope you found this guide helpful.  
+If something don't works like espected, let me know.  
