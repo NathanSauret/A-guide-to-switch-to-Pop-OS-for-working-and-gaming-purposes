@@ -28,30 +28,7 @@ To solve this problem you can install this program: https://github.com/JustTemmi
 
 ## Solve technical issues:  
 ### - Have the audio share on Discord:  
-In Discord you can share your screen but it will not share the audio.  
-
-![image](https://github.com/user-attachments/assets/9c17e5e5-efdb-49df-99f4-ae0680b37a58)
-
-This one is a bit tricky but you have to create a virtual microphone by tapping theses commands in the terminal:  
-```
-pactl load-module module-null-sink media.class=Audio/Sink sink_name=Virtual-Mic channel_map=front-left,front-right
-pactl load-module module-null-sink media.class=Audio/Source/Virtual sink_name=Virtual-Mic channel_map=front-left,front-right
-pw-link Virtual-Mic:monitor_FL Virtual-Mic:input_FL
-pw-link Virtual-Mic:monitor_FR Virtual-Mic:input_FR)
-```
-Then set the monitoring device in OBS to the virtual microphone you've created in the Audio settings.  
-
-![image](https://github.com/user-attachments/assets/cd5a08e7-ac94-41f2-9ccd-a4451892943e)
-
-Now configure the audio channels in the Audio Mixer to monitor them (for exemple mic and desktop Audio).  
-To do so, click on the gear on the right of one of your audio channel in the Audio Mixer, then on *Advanced Audio Properties*.  
-
-![image](https://github.com/user-attachments/assets/b655717c-2b09-4834-8960-efca71dd8460)
-
-Select the audio sources you want to add to the virtual microphone by setting them to *Monitor and Output*  
-
-![image](https://github.com/user-attachments/assets/2e606b0c-695e-4703-a6f0-18a0c98edfb2)
-
+Working on it...  
 Finally, change the microphone source in Discord to the virtual microphone and disable the Noise Suppression so your friends can hear all the audio and not just people speaking.  
 You can also set the Input Sensitivity to the minimum to hear the whole audio without cuts.  
 
