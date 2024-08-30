@@ -34,7 +34,7 @@ You can also set the Input Sensitivity to the minimum to hear the whole audio wi
 
 </br>
 
-## Upgrades
+## Upgrades / Quality of life
 ### - Better store:  
 The Pop!_shop is great but it's sooo slow.  
 Instead you can install the COSMIC App Store, it's the same thing but faster (coded in Rust), simpler to use and prettier.  
